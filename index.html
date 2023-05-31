@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendario</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="filters">
+    <label for="day">Filtro por Día:</label>
+    <input type="text" id="day" name="day" placeholder="DD-MM-YYYY">
+
+    <label for="range_start">Filtro por Rango (Inicio):</label>
+    <input type="text" id="range_start" name="range_start" placeholder="DD-MM-YYYY">
+
+    <label for="range_end">Filtro por Rango (Fin):</label>
+    <input type="text" id="range_end" name="range_end" placeholder="DD-MM-YYYY">
+
+    <label for="route_id">Filtro por Ruta:</label>
+    <input type="text" id="route_id" name="route_id" placeholder="ID de Ruta">
+
+    <button id="searchButton">Buscar</button>
+  </div>
+
+  <div id="calendar"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
